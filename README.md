@@ -1,0 +1,2 @@
+# ShardingSphere-parent
+ShardingSphere实现mysql分表分库
