@@ -16,7 +16,7 @@ target/
 ### IntelliJ IDEA ###
 .idea
 *.iws
-*.iml
+shardingSphere-parent.iml
 *.ipr
 .mvn
 log/
