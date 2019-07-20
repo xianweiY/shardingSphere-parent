@@ -9,6 +9,7 @@
  */
 package com.atguigu.java;
 
+import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -19,6 +20,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @DESCRIPTION : TODO(用一句话描述该类做什么)
  * @since JDK 1.8
  */
+@MapperScan("com.atguigu.java.dao")
 @SpringBootApplication
 public class ApplicationSharding {
     public static void main(String[] args) {
